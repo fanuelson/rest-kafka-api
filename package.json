@@ -1,0 +1,26 @@
+{
+  "name": "rest-apache-pulsar-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tsx watch index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/command-line-args": "^5.2.3",
+    "command-line-args": "^5.2.1",
+    "express": "^4.19.2",
+    "kafkajs": "^2.2.4",
+    "pulsar-client": "^1.10.0",
+    "tsx": "^4.7.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  }
+}
